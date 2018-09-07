@@ -1,8 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Zoo.App">
+             x:Class="Zoo.App"
+             xmlns:Infra="clr-namespace:Zoo.Infrastructure">
 	<Application.Resources>
-    
-	</Application.Resources>
+        <ResourceDictionary>
+
+            <!--Locator-->
+            <Infra:InstanceLocator x:Key="Locator"/>
+            <!-- Parameters -->
+
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>
